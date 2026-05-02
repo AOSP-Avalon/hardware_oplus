@@ -131,6 +131,8 @@ Vibrator::Vibrator() {
 
     aac_vibra_looper_start();
 
+    aac_vibra_setAmplitude(0x7F);
+
     ALOGI("AAC init success: %u\n", deviceType);
 }
 
